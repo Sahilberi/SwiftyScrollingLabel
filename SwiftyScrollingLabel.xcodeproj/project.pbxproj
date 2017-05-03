@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA6C09201EB98B2B00AB3E95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6C091F1EB98B2B00AB3E95 /* AppDelegate.swift */; };
+		BA6C09221EB98B2B00AB3E95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6C09211EB98B2B00AB3E95 /* ViewController.swift */; };
+		BA6C09251EB98B2B00AB3E95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA6C09231EB98B2B00AB3E95 /* Main.storyboard */; };
+		BA6C09271EB98B2B00AB3E95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA6C09261EB98B2B00AB3E95 /* Assets.xcassets */; };
+		BA6C092A1EB98B2B00AB3E95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA6C09281EB98B2B00AB3E95 /* LaunchScreen.storyboard */; };
+		BA6C09351EB98B2B00AB3E95 /* SwiftyScrollingLabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6C09341EB98B2B00AB3E95 /* SwiftyScrollingLabelTests.swift */; };
+		BA6C09401EB98B2B00AB3E95 /* SwiftyScrollingLabelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6C093F1EB98B2B00AB3E95 /* SwiftyScrollingLabelUITests.swift */; };
+		BA6C094E1EB98B4C00AB3E95 /* SwiftyScrollingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6C094D1EB98B4C00AB3E95 /* SwiftyScrollingLabel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA6C09311EB98B2B00AB3E95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA6C09141EB98B2B00AB3E95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA6C091B1EB98B2B00AB3E95;
+			remoteInfo = SwiftyScrollingLabel;
+		};
+		BA6C093C1EB98B2B00AB3E95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA6C09141EB98B2B00AB3E95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA6C091B1EB98B2B00AB3E95;
+			remoteInfo = SwiftyScrollingLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA6C091C1EB98B2B00AB3E95 /* SwiftyScrollingLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyScrollingLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6C091F1EB98B2B00AB3E95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA6C09211EB98B2B00AB3E95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA6C09241EB98B2B00AB3E95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA6C09261EB98B2B00AB3E95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA6C09291EB98B2B00AB3E95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA6C092B1EB98B2B00AB3E95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6C09301EB98B2B00AB3E95 /* SwiftyScrollingLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyScrollingLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6C09341EB98B2B00AB3E95 /* SwiftyScrollingLabelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyScrollingLabelTests.swift; sourceTree = "<group>"; };
+		BA6C09361EB98B2B00AB3E95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6C093B1EB98B2B00AB3E95 /* SwiftyScrollingLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyScrollingLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6C093F1EB98B2B00AB3E95 /* SwiftyScrollingLabelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyScrollingLabelUITests.swift; sourceTree = "<group>"; };
+		BA6C09411EB98B2B00AB3E95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6C094D1EB98B4C00AB3E95 /* SwiftyScrollingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyScrollingLabel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA6C09191EB98B2B00AB3E95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6C092D1EB98B2B00AB3E95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6C09381EB98B2B00AB3E95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA6C09131EB98B2B00AB3E95 = {
+			isa = PBXGroup;
+			children = (
+				BA6C091E1EB98B2B00AB3E95 /* SwiftyScrollingLabel */,
+				BA6C09331EB98B2B00AB3E95 /* SwiftyScrollingLabelTests */,
+				BA6C093E1EB98B2B00AB3E95 /* SwiftyScrollingLabelUITests */,
+				BA6C091D1EB98B2B00AB3E95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA6C091D1EB98B2B00AB3E95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA6C091C1EB98B2B00AB3E95 /* SwiftyScrollingLabel.app */,
+				BA6C09301EB98B2B00AB3E95 /* SwiftyScrollingLabelTests.xctest */,
+				BA6C093B1EB98B2B00AB3E95 /* SwiftyScrollingLabelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA6C091E1EB98B2B00AB3E95 /* SwiftyScrollingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				BA6C094D1EB98B4C00AB3E95 /* SwiftyScrollingLabel.swift */,
+				BA6C091F1EB98B2B00AB3E95 /* AppDelegate.swift */,
+				BA6C09211EB98B2B00AB3E95 /* ViewController.swift */,
+				BA6C09231EB98B2B00AB3E95 /* Main.storyboard */,
+				BA6C09261EB98B2B00AB3E95 /* Assets.xcassets */,
+				BA6C09281EB98B2B00AB3E95 /* LaunchScreen.storyboard */,
+				BA6C092B1EB98B2B00AB3E95 /* Info.plist */,
+			);
+			path = SwiftyScrollingLabel;
+			sourceTree = "<group>";
+		};
+		BA6C09331EB98B2B00AB3E95 /* SwiftyScrollingLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA6C09341EB98B2B00AB3E95 /* SwiftyScrollingLabelTests.swift */,
+				BA6C09361EB98B2B00AB3E95 /* Info.plist */,
+			);
+			path = SwiftyScrollingLabelTests;
+			sourceTree = "<group>";
+		};
+		BA6C093E1EB98B2B00AB3E95 /* SwiftyScrollingLabelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA6C093F1EB98B2B00AB3E95 /* SwiftyScrollingLabelUITests.swift */,
+				BA6C09411EB98B2B00AB3E95 /* Info.plist */,
+			);
+			path = SwiftyScrollingLabelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA6C091B1EB98B2B00AB3E95 /* SwiftyScrollingLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA6C09441EB98B2B00AB3E95 /* Build configuration list for PBXNativeTarget "SwiftyScrollingLabel" */;
+			buildPhases = (
+				BA6C09181EB98B2B00AB3E95 /* Sources */,
+				BA6C09191EB98B2B00AB3E95 /* Frameworks */,
+				BA6C091A1EB98B2B00AB3E95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyScrollingLabel;
+			productName = SwiftyScrollingLabel;
+			productReference = BA6C091C1EB98B2B00AB3E95 /* SwiftyScrollingLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA6C092F1EB98B2B00AB3E95 /* SwiftyScrollingLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA6C09471EB98B2B00AB3E95 /* Build configuration list for PBXNativeTarget "SwiftyScrollingLabelTests" */;
+			buildPhases = (
+				BA6C092C1EB98B2B00AB3E95 /* Sources */,
+				BA6C092D1EB98B2B00AB3E95 /* Frameworks */,
+				BA6C092E1EB98B2B00AB3E95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA6C09321EB98B2B00AB3E95 /* PBXTargetDependency */,
+			);
+			name = SwiftyScrollingLabelTests;
+			productName = SwiftyScrollingLabelTests;
+			productReference = BA6C09301EB98B2B00AB3E95 /* SwiftyScrollingLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA6C093A1EB98B2B00AB3E95 /* SwiftyScrollingLabelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA6C094A1EB98B2B00AB3E95 /* Build configuration list for PBXNativeTarget "SwiftyScrollingLabelUITests" */;
+			buildPhases = (
+				BA6C09371EB98B2B00AB3E95 /* Sources */,
+				BA6C09381EB98B2B00AB3E95 /* Frameworks */,
+				BA6C09391EB98B2B00AB3E95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA6C093D1EB98B2B00AB3E95 /* PBXTargetDependency */,
+			);
+			name = SwiftyScrollingLabelUITests;
+			productName = SwiftyScrollingLabelUITests;
+			productReference = BA6C093B1EB98B2B00AB3E95 /* SwiftyScrollingLabelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA6C09141EB98B2B00AB3E95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = SahilBeri;
+				TargetAttributes = {
+					BA6C091B1EB98B2B00AB3E95 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					BA6C092F1EB98B2B00AB3E95 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BA6C091B1EB98B2B00AB3E95;
+					};
+					BA6C093A1EB98B2B00AB3E95 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BA6C091B1EB98B2B00AB3E95;
+					};
+				};
+			};
+			buildConfigurationList = BA6C09171EB98B2B00AB3E95 /* Build configuration list for PBXProject "SwiftyScrollingLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA6C09131EB98B2B00AB3E95;
+			productRefGroup = BA6C091D1EB98B2B00AB3E95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA6C091B1EB98B2B00AB3E95 /* SwiftyScrollingLabel */,
+				BA6C092F1EB98B2B00AB3E95 /* SwiftyScrollingLabelTests */,
+				BA6C093A1EB98B2B00AB3E95 /* SwiftyScrollingLabelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA6C091A1EB98B2B00AB3E95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6C092A1EB98B2B00AB3E95 /* LaunchScreen.storyboard in Resources */,
+				BA6C09271EB98B2B00AB3E95 /* Assets.xcassets in Resources */,
+				BA6C09251EB98B2B00AB3E95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6C092E1EB98B2B00AB3E95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6C09391EB98B2B00AB3E95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA6C09181EB98B2B00AB3E95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6C09221EB98B2B00AB3E95 /* ViewController.swift in Sources */,
+				BA6C09201EB98B2B00AB3E95 /* AppDelegate.swift in Sources */,
+				BA6C094E1EB98B4C00AB3E95 /* SwiftyScrollingLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6C092C1EB98B2B00AB3E95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6C09351EB98B2B00AB3E95 /* SwiftyScrollingLabelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6C09371EB98B2B00AB3E95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6C09401EB98B2B00AB3E95 /* SwiftyScrollingLabelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA6C09321EB98B2B00AB3E95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA6C091B1EB98B2B00AB3E95 /* SwiftyScrollingLabel */;
+			targetProxy = BA6C09311EB98B2B00AB3E95 /* PBXContainerItemProxy */;
+		};
+		BA6C093D1EB98B2B00AB3E95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA6C091B1EB98B2B00AB3E95 /* SwiftyScrollingLabel */;
+			targetProxy = BA6C093C1EB98B2B00AB3E95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA6C09231EB98B2B00AB3E95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA6C09241EB98B2B00AB3E95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA6C09281EB98B2B00AB3E95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA6C09291EB98B2B00AB3E95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA6C09421EB98B2B00AB3E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA6C09431EB98B2B00AB3E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA6C09451EB98B2B00AB3E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftyScrollingLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sahil.SwiftyScrollingLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BA6C09461EB98B2B00AB3E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftyScrollingLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sahil.SwiftyScrollingLabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BA6C09481EB98B2B00AB3E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwiftyScrollingLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sahil.SwiftyScrollingLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftyScrollingLabel.app/SwiftyScrollingLabel";
+			};
+			name = Debug;
+		};
+		BA6C09491EB98B2B00AB3E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwiftyScrollingLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sahil.SwiftyScrollingLabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftyScrollingLabel.app/SwiftyScrollingLabel";
+			};
+			name = Release;
+		};
+		BA6C094B1EB98B2B00AB3E95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SwiftyScrollingLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sahil.SwiftyScrollingLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwiftyScrollingLabel;
+			};
+			name = Debug;
+		};
+		BA6C094C1EB98B2B00AB3E95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SwiftyScrollingLabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sahil.SwiftyScrollingLabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwiftyScrollingLabel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA6C09171EB98B2B00AB3E95 /* Build configuration list for PBXProject "SwiftyScrollingLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6C09421EB98B2B00AB3E95 /* Debug */,
+				BA6C09431EB98B2B00AB3E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA6C09441EB98B2B00AB3E95 /* Build configuration list for PBXNativeTarget "SwiftyScrollingLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6C09451EB98B2B00AB3E95 /* Debug */,
+				BA6C09461EB98B2B00AB3E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA6C09471EB98B2B00AB3E95 /* Build configuration list for PBXNativeTarget "SwiftyScrollingLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6C09481EB98B2B00AB3E95 /* Debug */,
+				BA6C09491EB98B2B00AB3E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA6C094A1EB98B2B00AB3E95 /* Build configuration list for PBXNativeTarget "SwiftyScrollingLabelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6C094B1EB98B2B00AB3E95 /* Debug */,
+				BA6C094C1EB98B2B00AB3E95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA6C09141EB98B2B00AB3E95 /* Project object */;
+}

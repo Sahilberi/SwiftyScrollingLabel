@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SwiftyScrollingLabel" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9ho-qn-Xo9" customClass="SwiftyScrollingLabel" customModule="SwiftyScrollingLabel" customModuleProvider="target">
+                                <rect key="frame" x="26" y="50" width="323" height="35"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="7x7-V3-gaq"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="labelColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="labelText" value="1. In the upper-right corner of any page, click , and then click New repository."/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="labelBgColor">
+                                        <color key="value" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="labelScrollingSpeed">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IkS-m5-v6r" customClass="SwiftyScrollingLabel" customModule="SwiftyScrollingLabel" customModuleProvider="target">
+                                <rect key="frame" x="26" y="105" width="323" height="35"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="j38-xv-v0U"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="labelBgColor">
+                                        <color key="value" red="0.94509803920000002" green="0.94509803920000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="labelText" value="2. In the Owner drop-down, select the account you wish to create the repository on."/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="right" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="labelScrollingSpeed">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8oo-lJ-pHh" customClass="SwiftyScrollingLabel" customModule="SwiftyScrollingLabel" customModuleProvider="target">
+                                <rect key="frame" x="26" y="160" width="323" height="35"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="cFq-ec-08Y"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="labelBgColor">
+                                        <color key="value" red="0.89469866070000004" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="labelText" value="3. You can choose to make the repository either public or private"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="right" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="labelScrollingSpeed">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Creating a new  Gitub repository." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kCw-qv-hTX">
+                                <rect key="frame" x="26" y="15" width="323" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3n0-MO-fKJ" customClass="SwiftyScrollingLabel" customModule="SwiftyScrollingLabel" customModuleProvider="target">
+                                <rect key="frame" x="26" y="210" width="323" height="35"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="It3-8R-r3J"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="labelBgColor">
+                                        <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="labelText" value="4. When you're finished, click Create repository. "/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="right" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="labelScrollingSpeed">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hurraayyy!!! Setup Complted!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9L8-Se-ahh">
+                                <rect key="frame" x="26" y="291" width="323" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="RWs-ts-M9j"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.89469866070000004" green="0.47843137250000001" blue="0.11520647321428572" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.75930059523809523" green="0.81633184523809521" blue="0.81987537202380945" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="9L8-Se-ahh" firstAttribute="top" secondItem="3n0-MO-fKJ" secondAttribute="bottom" constant="46" id="0JU-GZ-hZn"/>
+                            <constraint firstItem="IkS-m5-v6r" firstAttribute="top" secondItem="9ho-qn-Xo9" secondAttribute="bottom" constant="20" id="1sN-MB-2kP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="3n0-MO-fKJ" secondAttribute="trailing" constant="10" id="21h-TG-La5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8oo-lJ-pHh" secondAttribute="trailing" constant="10" id="7iy-0e-vZQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="kCw-qv-hTX" secondAttribute="trailing" constant="10" id="Dnw-Sa-xlN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="IkS-m5-v6r" secondAttribute="trailing" constant="10" id="Gcd-OB-rk5"/>
+                            <constraint firstItem="9ho-qn-Xo9" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="HRJ-2C-KdN"/>
+                            <constraint firstItem="3n0-MO-fKJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="Hm0-T8-kGC"/>
+                            <constraint firstItem="3n0-MO-fKJ" firstAttribute="top" secondItem="8oo-lJ-pHh" secondAttribute="bottom" constant="15" id="L5g-11-hpU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9L8-Se-ahh" secondAttribute="trailing" constant="10" id="PmK-Gu-oP8"/>
+                            <constraint firstItem="8oo-lJ-pHh" firstAttribute="top" secondItem="IkS-m5-v6r" secondAttribute="bottom" constant="20" id="PvQ-5S-cHh"/>
+                            <constraint firstItem="9ho-qn-Xo9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="RcP-tx-Buk"/>
+                            <constraint firstItem="kCw-qv-hTX" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="15" id="SS3-AN-q5i"/>
+                            <constraint firstItem="kCw-qv-hTX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="Uzh-aw-Yj1"/>
+                            <constraint firstItem="8oo-lJ-pHh" firstAttribute="leading" secondItem="IkS-m5-v6r" secondAttribute="leading" id="c8m-a7-7Nj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9ho-qn-Xo9" secondAttribute="trailing" constant="10" id="qdU-qN-eQd"/>
+                            <constraint firstItem="IkS-m5-v6r" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="sXZ-3n-g5H"/>
+                            <constraint firstItem="9L8-Se-ahh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="yAV-t0-TA0"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="labelView1" destination="9ho-qn-Xo9" id="CFM-OC-g3I"/>
+                        <outlet property="labelView2" destination="IkS-m5-v6r" id="Aag-a8-f3t"/>
+                        <outlet property="labelView3" destination="8oo-lJ-pHh" id="ccH-1w-sbW"/>
+                        <outlet property="labelView4" destination="3n0-MO-fKJ" id="S2k-dx-HOg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1884" y="-50"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="dHX-LA-NcI">
+            <objects>
+                <viewController id="VR1-HS-0Uq" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ehg-4e-BGk"/>
+                        <viewControllerLayoutGuide type="bottom" id="NPV-Te-Odk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZYe-wd-1Nj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="26i-K3-WfJ">
+                                <rect key="frame" x="67" y="82" width="240" height="200"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="WMX-q9-poE"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tef-V6-Pg3">
+                                <rect key="frame" x="67" y="269" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="26i-K3-WfJ" secondAttribute="trailing" constant="52" id="FSe-sH-Pq3"/>
+                            <constraint firstItem="26i-K3-WfJ" firstAttribute="top" secondItem="ehg-4e-BGk" secondAttribute="bottom" constant="62" id="q6Q-Bq-RPr"/>
+                            <constraint firstItem="26i-K3-WfJ" firstAttribute="leading" secondItem="ZYe-wd-1Nj" secondAttribute="leadingMargin" constant="51" id="yk5-sp-fjW"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7xf-RC-fMk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="396" y="86"/>
+        </scene>
+    </scenes>
+</document>
