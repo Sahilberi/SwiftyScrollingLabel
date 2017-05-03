@@ -5,7 +5,7 @@ SwiftyScrollingLabel is a subclass of UIView and it  adds a label on it with scr
 [![License][license-image]][license-url]
 [![Build Status][build-status-image]][build-status-url]
 
-![GIF of MarqueeLabelDemo in action] (https://cloud.githubusercontent.com/assets/7422405/25655178/a53af7da-3011-11e7-8b25-02e39ed5a705.gif)
+![GIF of MarqueeLabelDemo in action](https://cloud.githubusercontent.com/assets/7422405/25655178/a53af7da-3011-11e7-8b25-02e39ed5a705.gif)
 
 ## Features
 
