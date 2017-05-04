@@ -1,12 +1,13 @@
 # SwiftyScrollingLabel
 SwiftyScrollingLabel is a subclass of UIView and it  adds a label on it with scrolling marquee effect.
 
-![GIF of MarqueeLabelDemo in action](https://cloud.githubusercontent.com/assets/7422405/25655178/a53af7da-3011-11e7-8b25-02e39ed5a705.gif)
+![GIF of SwiftyScrolling label demo](https://cloud.githubusercontent.com/assets/7422405/25692292/02a0f322-30bf-11e7-9510-d0d3bf942bca.gif)
 
 ## Features
 
 - [x] Easy setup with @IBInspectable
 - [x] A beautiful and animated Scrolling effect.
+- [x] Stop and Resume Animation Feature.
 
 ## Requirements
 
@@ -27,12 +28,14 @@ SwiftyScrollingLabel is a subclass of UIView and it  adds a label on it with scr
 
 ## Methods
 
-Create a label outlet and call the `startAnimate` method to start scrolling effect.
+- Create a label outlet and call the `startAnimate` method to start scrolling effect.
+- For Resume Animation call `resumeAnimate` method.
+- For Stop Animation call `pauseAnimate` method.
 
-# Note: 
-Always call `startAnimate` in `viewDidAppear` methods.
+## Note: 
+Always call `startAnimate` in `viewDidAppear` method.
 
-# Contributions
+## Contributions
 
 Any contribution is more than welcome! You can contribute through pull requests and issues on GitHub.
 
