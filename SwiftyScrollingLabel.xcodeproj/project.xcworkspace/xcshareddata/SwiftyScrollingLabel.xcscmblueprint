@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6CDFA0F88F2710215163212DE12525D659A3AAFC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "AD0AF67AFAF37D8FA43849A5B6029DF239573BD2" : 9223372036854775807,
+    "6CDFA0F88F2710215163212DE12525D659A3AAFC" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "51FBC5C6-B9C4-4390-8A37-740E9F6FA79B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "AD0AF67AFAF37D8FA43849A5B6029DF239573BD2" : "",
+    "6CDFA0F88F2710215163212DE12525D659A3AAFC" : "SwiftyScrollingLabel\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SwiftyScrollingLabel",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SwiftyScrollingLabel.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Sahilberi\/SwiftyScrollingLabel.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6CDFA0F88F2710215163212DE12525D659A3AAFC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Sahilberi\/SahilRepo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AD0AF67AFAF37D8FA43849A5B6029DF239573BD2"
+    }
+  ]
+}

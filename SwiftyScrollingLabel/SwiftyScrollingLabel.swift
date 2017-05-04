@@ -6,12 +6,13 @@
 //  Copyright © 2017 SahilBeri. All rights reserved.
 //
 
+import QuartzCore
 import Foundation
 import UIKit
 
 @IBDesignable
 class SwiftyScrollingLabel: UIView {
-
+  
   var label: UILabel!
   
   @IBInspectable var labelScrollingSpeed: Double = 10.0 {
@@ -38,12 +39,12 @@ class SwiftyScrollingLabel: UIView {
       label.text = labelText
     }
   }
-
+  
   public override init(frame: CGRect) {
     super.init(frame: frame)
     updateView()
- }
-
+  }
+  
   public required init?(coder aDecoder: NSCoder) {
     super.init(coder: aDecoder)
     updateView()
@@ -51,14 +52,14 @@ class SwiftyScrollingLabel: UIView {
   
   override func layoutSubviews() {
     super.layoutSubviews()
-
+    
     label.translatesAutoresizingMaskIntoConstraints = false
     self.addConstraint(label, toView: self, attribute: .top, constant: 0.0)
     self.addConstraint(label, toView: self, attribute: .leading, constant: 0.0)
     self.addConstraint(label, toView: self, attribute: .bottom, constant: 0.0)
     label.textColor = UIColor.black
   }
-
+  
   func updateView() {
     self.clipsToBounds = true
     label = UILabel()
@@ -71,29 +72,51 @@ class SwiftyScrollingLabel: UIView {
       rightAnim()
     } else {
       // for left to right
-        leftAnim()
+      leftAnim()
     }
   }
-
+  
+  func pauseAnimate(){
+    let layer = label.layer
+    let pausedTime = layer.convertTime(CACurrentMediaTime(), from: nil)
+    layer.speed = 0.0
+    layer.timeOffset = pausedTime
+  }
+  
+  func resumeAnimate(){
+    let layer = label.layer
+    let pauseTime = layer.timeOffset
+    if pauseTime > 0{
+      layer.speed = 1.0
+      layer.timeOffset = 0.0
+      layer.beginTime = 0.0
+      let timeSincePause = layer.convertTime(CACurrentMediaTime(), from: nil) - pauseTime
+      layer.beginTime = timeSincePause
+    }
+    
+  }
+  
+  
   private func rightAnim(){
     self.layoutIfNeeded()
-
+    
     // for right to left
     self.label.frame.origin.x = self.label.frame.width
-  
+    
     UIView.animate(withDuration: labelScrollingSpeed, delay: 0, options: ([.curveLinear, .repeat]), animations: {() -> Void in
-        self.label.frame.origin.x = -self.label.frame.width
-      }, completion:  { _ in})
+      self.label.frame.origin.x = -self.label.frame.width
+    }, completion:  {_ in})
   }
-
+  
   private func leftAnim() {
     self.label.frame.origin.x = -self.label.frame.width
-
+    
     UIView.animate(withDuration: labelScrollingSpeed, delay: 0, options: ([.curveLinear, .repeat]), animations: {() -> Void in
       self.label.frame.origin.x = self.frame.width
+      print(self.label.frame.origin.x)
     }, completion:  { _ in })
   }
-
+  
   func addConstraint(_ newView: UIView, toView: UIView, attribute: NSLayoutAttribute, constant: CGFloat) {
     let constraint =  NSLayoutConstraint(item: newView, attribute: attribute, relatedBy: .equal, toItem: toView, attribute: attribute, multiplier: 1.0, constant: constant)
     toView.addConstraint(constraint)

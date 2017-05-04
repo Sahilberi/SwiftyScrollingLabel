@@ -107,27 +107,48 @@
                                 <color key="textColor" red="0.89469866070000004" green="0.47843137250000001" blue="0.11520647321428572" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="whZ-1i-oZA">
+                                <rect key="frame" x="16" y="368" width="171.5" height="30"/>
+                                <state key="normal" title="Resume Animation"/>
+                                <connections>
+                                    <action selector="resumeAnimationBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FkT-0v-N9z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hmE-Zr-RiT">
+                                <rect key="frame" x="187.5" y="368" width="171.5" height="30"/>
+                                <state key="normal" title="Pause Animation"/>
+                                <connections>
+                                    <action selector="stopAnimationBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dcN-tn-p33"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.75930059523809523" green="0.81633184523809521" blue="0.81987537202380945" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="9L8-Se-ahh" firstAttribute="top" secondItem="3n0-MO-fKJ" secondAttribute="bottom" constant="46" id="0JU-GZ-hZn"/>
+                            <constraint firstItem="hmE-Zr-RiT" firstAttribute="height" secondItem="whZ-1i-oZA" secondAttribute="height" id="16Y-MO-Jiu"/>
                             <constraint firstItem="IkS-m5-v6r" firstAttribute="top" secondItem="9ho-qn-Xo9" secondAttribute="bottom" constant="20" id="1sN-MB-2kP"/>
                             <constraint firstAttribute="trailingMargin" secondItem="3n0-MO-fKJ" secondAttribute="trailing" constant="10" id="21h-TG-La5"/>
                             <constraint firstAttribute="trailingMargin" secondItem="8oo-lJ-pHh" secondAttribute="trailing" constant="10" id="7iy-0e-vZQ"/>
+                            <constraint firstItem="hmE-Zr-RiT" firstAttribute="width" secondItem="whZ-1i-oZA" secondAttribute="width" id="8M5-ix-7h4"/>
                             <constraint firstAttribute="trailingMargin" secondItem="kCw-qv-hTX" secondAttribute="trailing" constant="10" id="Dnw-Sa-xlN"/>
                             <constraint firstAttribute="trailingMargin" secondItem="IkS-m5-v6r" secondAttribute="trailing" constant="10" id="Gcd-OB-rk5"/>
+                            <constraint firstItem="hmE-Zr-RiT" firstAttribute="leading" secondItem="whZ-1i-oZA" secondAttribute="trailing" id="HMA-LI-ect"/>
                             <constraint firstItem="9ho-qn-Xo9" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="HRJ-2C-KdN"/>
                             <constraint firstItem="3n0-MO-fKJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="Hm0-T8-kGC"/>
                             <constraint firstItem="3n0-MO-fKJ" firstAttribute="top" secondItem="8oo-lJ-pHh" secondAttribute="bottom" constant="15" id="L5g-11-hpU"/>
+                            <constraint firstItem="whZ-1i-oZA" firstAttribute="top" secondItem="9L8-Se-ahh" secondAttribute="bottom" constant="56" id="OS5-J0-uhL"/>
                             <constraint firstAttribute="trailingMargin" secondItem="9L8-Se-ahh" secondAttribute="trailing" constant="10" id="PmK-Gu-oP8"/>
                             <constraint firstItem="8oo-lJ-pHh" firstAttribute="top" secondItem="IkS-m5-v6r" secondAttribute="bottom" constant="20" id="PvQ-5S-cHh"/>
                             <constraint firstItem="9ho-qn-Xo9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="RcP-tx-Buk"/>
+                            <constraint firstItem="whZ-1i-oZA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="SIE-bS-4fQ"/>
                             <constraint firstItem="kCw-qv-hTX" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="15" id="SS3-AN-q5i"/>
                             <constraint firstItem="kCw-qv-hTX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="Uzh-aw-Yj1"/>
                             <constraint firstItem="8oo-lJ-pHh" firstAttribute="leading" secondItem="IkS-m5-v6r" secondAttribute="leading" id="c8m-a7-7Nj"/>
                             <constraint firstAttribute="trailingMargin" secondItem="9ho-qn-Xo9" secondAttribute="trailing" constant="10" id="qdU-qN-eQd"/>
                             <constraint firstItem="IkS-m5-v6r" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="sXZ-3n-g5H"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hmE-Zr-RiT" secondAttribute="trailing" id="tCx-Cv-gFo"/>
                             <constraint firstItem="9L8-Se-ahh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="yAV-t0-TA0"/>
+                            <constraint firstItem="hmE-Zr-RiT" firstAttribute="top" secondItem="whZ-1i-oZA" secondAttribute="top" id="zmw-8R-5zf"/>
                         </constraints>
                     </view>
                     <connections>
@@ -139,7 +160,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1884" y="-50"/>
+            <point key="canvasLocation" x="-1950" y="-140"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="dHX-LA-NcI">
